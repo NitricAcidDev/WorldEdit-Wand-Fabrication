@@ -9,6 +9,7 @@ public final class WandConfig {
     static {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
         ENABLED = builder.comment("Restore the WorldEdit Items Wand Axe in creative mode.")
+                .translation("worldeditwandfabrication.config.enabled")
                 .define("enabled", true);
         SPEC = builder.build();
     }
